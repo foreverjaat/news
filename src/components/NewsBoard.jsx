@@ -32,7 +32,7 @@ return (
                     key={index}
                     title={news.title}
                     description={news.description}
-                    src={news.urlToImage}
+                    src={news.image}
                     url={news.url}
                 />
             );
